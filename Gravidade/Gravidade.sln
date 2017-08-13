@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{6ACAB11F-762A-3890-3B31-D19EFED96DB8}") = "Gravidade", "Assembly-CSharp.csproj", "{5DC16BF3-A0A0-132E-DA53-5F8B7BF104E8}"
+EndProject
+Project("{6ACAB11F-762A-3890-3B31-D19EFED96DB8}") = "Gravidade", "Assembly-UnityScript.unityproj", "{12F81C1E-ABF4-D1A2-D927-0BA7F9974EA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DC16BF3-A0A0-132E-DA53-5F8B7BF104E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC16BF3-A0A0-132E-DA53-5F8B7BF104E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC16BF3-A0A0-132E-DA53-5F8B7BF104E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC16BF3-A0A0-132E-DA53-5F8B7BF104E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F81C1E-ABF4-D1A2-D927-0BA7F9974EA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F81C1E-ABF4-D1A2-D927-0BA7F9974EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F81C1E-ABF4-D1A2-D927-0BA7F9974EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F81C1E-ABF4-D1A2-D927-0BA7F9974EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
