@@ -20,7 +20,7 @@ public class Gravidade : MonoBehaviour {
 	void CalculateGravity(){
 		foreach(Corpo corpo in CorposArray){
 			Vector3 distancia = corpo.transform.position - transform.position;
-			corpo.GetComponent<Rigidbody>().AddForce(distancia.normalized * (distancia.magnitude));
+			corpo.GetComponent<Rigidbody>().AddForce(distancia.normalized * 10000);
 			Quaternion targetRotation = Quaternion.FromToRotation (corpo.transform.up, new Vector3(-distancia.x, -distancia.y, 0)) * corpo.transform.rotation;
 			corpo.transform.rotation = Quaternion.Slerp (corpo.transform.rotation, targetRotation, 50 * Time.deltaTime);
 		}
